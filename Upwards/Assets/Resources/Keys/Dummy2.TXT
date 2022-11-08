@@ -1,0 +1,7 @@
+Ash Key
+
+I am bored.
+I am detached.
+
+[[Okay | Ash2]]
+[[No | Ash3]]
