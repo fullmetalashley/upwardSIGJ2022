@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2811,15 +2811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueKey: Passage Key Answer 3
-  dialogue:
-    name: 
-    sentences: []
-    choices: []
-    dialogueKey: 
-    parent: 
-    children: []
-    stat: []
-    statValue: 
+  dialogue: {fileID: 0}
 --- !u!1 &1784158516
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +2927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1871757823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2948,15 +2940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bfe59cd331d72449b2ce02d4512d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDialogue:
-    name: 
-    sentences: []
-    choices: []
-    dialogueKey: 
-    parent: 
-    children: []
-    stat: []
-    statValue: 
+  currentDialogue: {fileID: 0}
   animator: {fileID: 149657808}
   triggerAnimator: {fileID: 1731907501}
   nameText: {fileID: 2124665522}
